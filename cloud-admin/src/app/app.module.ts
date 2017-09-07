@@ -1,7 +1,6 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MdSidenavModule} from '@angular/material';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AlertComponent } from './basicComponents/alert/alert.component';
 
@@ -12,9 +11,11 @@ import { AlertComponent } from './basicComponents/alert/alert.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot()
+    BrowserAnimationsModule,
+    MdSidenavModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }

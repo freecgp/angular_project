@@ -16,6 +16,12 @@
   dependencies:
     tslib "^1.7.1"
 
+"@angular/cdk@^2.0.0-beta.10":
+  version "2.0.0-beta.10"
+  resolved "http://registry.npm.taobao.org/@angular/cdk/download/@angular/cdk-2.0.0-beta.10.tgz#7ffcc430d6f67dfde1df25e1fa693c188e4da08a"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/cli@1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-1.3.0.tgz#140fe698508a8c023b4b7da01c0cc063cf711018"
@@ -127,6 +133,12 @@
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-4.3.6.tgz#71cf2dbb4661568f3d12a9c0e4b9e043ef93bd3a"
 
+"@angular/material@^2.0.0-beta.10":
+  version "2.0.0-beta.10"
+  resolved "http://registry.npm.taobao.org/@angular/material/download/@angular/material-2.0.0-beta.10.tgz#23f5887d5e34da89dd6da1fe4da0b3f779da4807"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@^4.2.4":
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.3.6.tgz#9eabf826f119c98f85c2a96edcb18ab00b4efb1c"
@@ -150,10 +162,6 @@
   resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.3.6.tgz#1aa66e0ab2c4799a4ad14b675e13953aa5fcd436"
   dependencies:
     tsickle "^0.21.0"
-
-"@ng-bootstrap/ng-bootstrap@^1.0.0-beta.3":
-  version "1.0.0-beta.3"
-  resolved "http://registry.npm.taobao.org/@ng-bootstrap/ng-bootstrap/download/@ng-bootstrap/ng-bootstrap-1.0.0-beta.3.tgz#c1fdd8d727f54830b6d470c0d9f9fc32d45494f9"
 
 "@ngtools/json-schema@1.1.0":
   version "1.1.0"
@@ -641,10 +649,6 @@ boom@2.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
   dependencies:
     hoek "2.x.x"
-
-bootstrap@^4.0.0-beta:
-  version "4.0.0-beta"
-  resolved "http://registry.npm.taobao.org/bootstrap/download/bootstrap-4.0.0-beta.tgz#dc5928175d2e71310bc668cf9e05a907211b72a6"
 
 brace-expansion@^1.1.7:
   version "1.1.8"
@@ -2149,6 +2153,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "http://registry.npm.taobao.org/hammerjs/download/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+
 handle-thing@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
@@ -3405,7 +3413,7 @@ node-pre-gyp@^0.6.36:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-sass@^4.3.0:
+node-sass@^4.3.0, node-sass@^4.5.3:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.5.3.tgz#d09c9d1179641239d1b97ffc6231fdcec53e1568"
   dependencies:
